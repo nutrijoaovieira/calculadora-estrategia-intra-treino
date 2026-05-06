@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Calculadora de Estratégia Nutricional</title>
+  <desc id="desc">Ícone verde com monograma JV e símbolo de estratégia nutricional.</desc>
+  <rect width="512" height="512" rx="112" fill="#087f5b"/>
+  <path d="M112 358c44-95 94-151 150-168 45-14 91-7 138 18" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round"/>
+  <path d="M157 313h198" fill="none" stroke="#dff8ea" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="369" cy="212" r="34" fill="#dff8ea"/>
+  <text x="256" y="316" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="128" font-weight="800" fill="#ffffff">JV</text>
+</svg>
