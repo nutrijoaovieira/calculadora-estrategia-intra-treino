@@ -1,10 +1,11 @@
-const CACHE_NAME = "calculadora-estrategia-v1";
+const CACHE_NAME = "calculadora-estrategia-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./manifest.webmanifest",
-  "./icons/app-icon-192.png",
-  "./icons/app-icon-512.png",
+  "./manifest.webmanifest?v=2",
+  "./icons/estrategia-intra-treino-apple-180.png",
+  "./icons/estrategia-intra-treino-192.png",
+  "./icons/estrategia-intra-treino-512.png",
   "./assets/logo-joao-vieira.png"
 ];
 
@@ -26,6 +27,13 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request).catch(() => caches.match("./index.html"))
+    );
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then((cached) => {
