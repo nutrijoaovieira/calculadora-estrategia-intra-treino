@@ -3,10 +3,9 @@ const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./icons/app-icon.svg",
   "./icons/app-icon-192.png",
   "./icons/app-icon-512.png",
-  "./assets/logo-joao-vieira.svg"
+  "./assets/logo-joao-vieira.png"
 ];
 
 self.addEventListener("install", (event) => {

@@ -1,6 +1,6 @@
 {
-  "name": "Calculadora de Estratégia Nutricional",
-  "short_name": "Estratégia",
+  "name": "Estratégia Intra Treino",
+  "short_name": "Intra Treino",
   "description": "Calculadora para montar uma estratégia inicial de carboidrato, sódio, cafeína e hidratação para treino e prova.",
   "start_url": "./index.html",
   "scope": "./",
@@ -19,12 +19,6 @@
       "src": "icons/app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/app-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ]
