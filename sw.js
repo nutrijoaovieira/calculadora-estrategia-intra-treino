@@ -1,4 +1,4 @@
-const CACHE_NAME = "calculadora-estrategia-v2";
+const CACHE_NAME = "calculadora-estrategia-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
