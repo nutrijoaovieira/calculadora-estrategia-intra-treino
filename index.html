@@ -40,7 +40,7 @@
   <div class="wrap"><header class="header"><div><p class="eyebrow">Área do Atleta</p><h1>Estratégia de Treino e Prova</h1><p class="lead">Calculadora para montar uma estratégia inicial de carboidrato, sódio, cafeína e hidratação com base na modalidade, duração, intensidade, experiência e suplementos disponíveis.</p></div></header><div class="app"><main><div class="progress-labels" id="progressLabels"></div><div class="bar"><div id="progressBar"></div></div><div id="content" class="section"></div><div class="nav"><button class="btn outline" id="prevBtn">‹ Voltar</button><button class="btn" id="nextBtn">Avançar ›</button></div></main><aside><div class="side-card"><h3>Resumo em tempo real</h3><div class="side-list" id="sideSummary"></div></div><div class="side-card hidden" id="sideInterpretationCard"><h3>Interpretação automática</h3><div class="interp" id="sideInterpretation"></div></div></aside></div></div>
   <script>
     "use strict";
-    const APP_PASSWORD = "fluir2026";
+    const APP_PASSWORD = "fluir2025";
     const ACCESS_KEY = "estrategiaIntraTreinoAccess";
     const accessToken = () => btoa(unescape(encodeURIComponent(APP_PASSWORD)));
     function unlockApp(){document.body.classList.remove("app-locked");const screen=document.getElementById("authScreen");if(screen)screen.classList.add("hidden")}
